@@ -20,7 +20,7 @@ table{width:100%;border-collapse:collapse;margin-top:12px;font-size:14px}th,td{p
 </head>
 <body><main>
 <h1>MFB Bluesky List Loader</h1>
-<p class="sub">Safari/iPad · populate all three MFB lists in one run.</p>
+<p class="sub">Safari/iPad · populate all four MFB lists in one run.</p>
 
 <section class="card">
 <label><strong>MFB_Follows app password</strong></label>
@@ -32,7 +32,7 @@ table{width:100%;border-collapse:collapse;margin-top:12px;font-size:14px}th,td{p
 
 <section class="card">
 <strong>Destination mapping</strong>
-<p class="small">The page reads the actual names of your three Bluesky lists, then maps each to National, Team Beats, or Local Desks.</p>
+<p class="small">The page reads the actual names of your four Bluesky lists, then maps each to National, Team Beats, Local Desks, or Business.</p>
 <div id="lists"></div>
 </section>
 
@@ -47,7 +47,7 @@ table{width:100%;border-collapse:collapse;margin-top:12px;font-size:14px}th,td{p
 
 <section class="card">
 <strong>Current source roster</strong>
-<p class="small">National: 10 · Team Beats: 29 · Local Desks: 26. Existing list members are skipped automatically.</p>
+<p class="small">National: 10 · Team Beats: 34 · Local Desks: 26 · Business: 11. Existing list members are skipped automatically.</p>
 </section>
 
 <script>
@@ -58,7 +58,8 @@ var PDS='https://bsky.social';
 var LISTS=[
 'https://bsky.app/profile/did:plc:a4cosvxq2fbkaja57wqqh4i5/lists/3mvxwzbiskm2v',
 'https://bsky.app/profile/did:plc:a4cosvxq2fbkaja57wqqh4i5/lists/3mvxwynoala2v',
-'https://bsky.app/profile/did:plc:a4cosvxq2fbkaja57wqqh4i5/lists/3mvxwxgt7lf2j'
+'https://bsky.app/profile/did:plc:a4cosvxq2fbkaja57wqqh4i5/lists/3mvxwxgt7lf2j',
+'https://bsky.app/profile/did:plc:a4cosvxq2fbkaja57wqqh4i5/lists/3mvyascehuv2v'
 ];
 var R={
 national:[
@@ -77,7 +78,9 @@ team_beats:[
 ['mikekayefootball.bsky.social','Mike Kaye'],['kfishbain.bsky.social','Kevin Fishbain'],['seanhammond.bsky.social','Sean Hammond'],
 ['bbaby41.bsky.social','Ben Baby'],['pbrennanenq.bsky.social','Pat Brennan'],['salsports.bsky.social','Sal Capaccio'],
 ['ml-j.bsky.social','Marcel Louis-Jacques'],['nickunderhill.bsky.social','Nick Underhill'],['matthewparas.bsky.social','Matthew Paras'],
-['zackblatt.bsky.social','Zack Rosenblatt'],['gregauman.bsky.social','Greg Auman'],['tashanreed.bsky.social','Tashan Reed']
+['zackblatt.bsky.social','Zack Rosenblatt'],['gregauman.bsky.social','Greg Auman'],['tashanreed.bsky.social','Tashan Reed'],
+['jamisonhensley.bsky.social','Jamison Hensley'],['joejhoyt.bsky.social','Joseph Hoyt'],['plonnfl.bsky.social','Pat Leonard'],
+['bradyhenderson.bsky.social','Brady Henderson'],['danielflick.bsky.social','Daniel Flick']
 ],
 local_desks:[
 ['ajc.com','Atlanta Journal-Constitution'],['buffalonews.com','The Buffalo News'],['charlotteobserver.com','Charlotte Observer'],
@@ -89,6 +92,14 @@ local_desks:[
 ['post-gazette.com','Pittsburgh Post-Gazette'],['seattletimes.com','The Seattle Times'],['sfchronicle.com','San Francisco Chronicle'],
 ['tampabaytimes.bsky.social','Tampa Bay Times'],['postsports.bsky.social','Washington Post Sports'],
 ['azcentral.com','azcentral'],['sports.thebaltimorebanner.com','Baltimore Banner Sports'],['citybeatcincy.bsky.social','Cincinnati CityBeat']
+],
+business:[
+['frontofficesports.bsky.social','Front Office Sports'],['sportico.bsky.social','Sportico'],
+['ebennovywilliams.bsky.social','Eben Novy-Williams'],['aericfisher.bsky.social','Eric Fisher'],
+['tabeek.bsky.social','Matt Tabeek'],['ourand.bsky.social','John Ourand'],
+['mccannsportslaw.bsky.social','Michael McCann'],['sportsmediawatch.bsky.social','Sports Media Watch'],
+['jasonbwilson.bsky.social','Jason Wilson'],['jacobfeldman.bsky.social','Jacob Feldman'],
+['levakabas.bsky.social','Lev Akabas']
 ]
 };
 
@@ -105,15 +116,15 @@ async function profile(){var p=await xrpc('https://public.api.bsky.app','app.bsk
 async function getRecord(rkey){return xrpc(PDS,'com.atproto.repo.getRecord?repo='+encodeURIComponent(OWNER)+'&collection=app.bsky.graph.list&rkey='+encodeURIComponent(rkey),{token:S.session.accessJwt})}
 async function listItems(){var all=[],cur='';do{var path='com.atproto.repo.listRecords?repo='+encodeURIComponent(OWNER)+'&collection=app.bsky.graph.listitem&limit=100'+(cur?'&cursor='+encodeURIComponent(cur):'');var p=await xrpc(PDS,path,{token:S.session.accessJwt});all=all.concat(p.records||[]);cur=p.cursor||''}while(cur);return all}
 async function resolve(h){var p=await xrpc(PDS,'com.atproto.identity.resolveHandle?handle='+encodeURIComponent(h),{token:S.session.accessJwt});if(!p.did)throw new Error('No DID returned');return p.did}
-function role(name){name=String(name||'').toLowerCase();if(name.indexOf('national')>=0)return'national';if(name.indexOf('beat')>=0)return'team_beats';if(name.indexOf('local')>=0)return'local_desks';return''}
+function role(name){name=String(name||'').toLowerCase();if(name.indexOf('national')>=0)return'national';if(name.indexOf('beat')>=0)return'team_beats';if(name.indexOf('local')>=0)return'local_desks';if(name.indexOf('business')>=0)return'business';return''}
 function mapping(){var sels=document.querySelectorAll('select[data-i]'),a=[],used={};for(var k=0;k<sels.length;k++){var i=Number(sels[k].dataset.i),v=sels[k].value;if(!v)throw new Error('Choose a roster for '+S.lists[i].name);if(used[v])throw new Error('Each roster must map to a different list.');used[v]=1;a.push({name:S.lists[i].name,uri:S.lists[i].uri,role:v})}return a}
-function renderLists(){q('lists').innerHTML='';S.lists.forEach(function(l,i){var d=document.createElement('div');d.className='list';d.innerHTML='<div class="name">'+esc(l.name)+'</div><select data-i="'+i+'"><option value="">Choose...</option><option value="national">MFB National</option><option value="team_beats">MFB Team Beats</option><option value="local_desks">MFB Local Desks</option></select>';q('lists').appendChild(d);d.querySelector('select').value=role(l.name)})}
-async function connect(){q('connect').disabled=true;q('preview').disabled=true;q('apply').disabled=true;try{var pw=q('pw').value.trim();if(!pw)throw new Error('Enter the MFB_Follows app password.');setStatus('Connecting...');var h=await profile();log('Resolved account handle '+h);S.session=await xrpc(PDS,'com.atproto.server.createSession',{method:'POST',body:{identifier:h,password:pw}});if(S.session.did!==OWNER)throw new Error('Authenticated account does not own these lists.');S.lists=[];for(var i=0;i<LISTS.length;i++){var p=parseList(LISTS[i]),rec=await getRecord(p.rkey);S.lists.push({name:rec.value.name,uri:p.uri,rkey:p.rkey})}renderLists();setStatus('Connected as '+S.session.handle+'. Read 3 lists.','ok');q('preview').disabled=false}catch(e){S.session=null;setStatus(e.message,'bad');log('ERROR: '+e.message)}finally{q('connect').disabled=false}}
-function totals(plan,done){var out={national:[R.national.length,0,0,0],team_beats:[R.team_beats.length,0,0,0],local_desks:[R.local_desks.length,0,0,0]};(plan.existing||[]).forEach(function(x){out[x.role][1]++});(done||plan.add||[]).forEach(function(x){out[x.role][2]++});(plan.fail||[]).forEach(function(x){out[x.role][3]++});return out}
-function render(plan,done){var t=totals(plan,done),labels={national:'National',team_beats:'Team Beats',local_desks:'Local Desks'},html='<table><tr><th>Roster</th><th>Total</th><th>Existing</th><th>'+(done?'Created':'To add')+'</th><th>Failed</th></tr>';['national','team_beats','local_desks'].forEach(function(r){html+='<tr><td>'+labels[r]+'</td><td>'+t[r][0]+'</td><td>'+t[r][1]+'</td><td>'+t[r][2]+'</td><td>'+t[r][3]+'</td></tr>'});html+='</table>';if(plan.fail.length){html+='<div class="status bad">'+plan.fail.map(function(x){return esc(x.handle+': '+x.error)}).join('\n')+'</div>'}q('summary').innerHTML=html}
+function renderLists(){q('lists').innerHTML='';S.lists.forEach(function(l,i){var d=document.createElement('div');d.className='list';d.innerHTML='<div class="name">'+esc(l.name)+'</div><select data-i="'+i+'"><option value="">Choose...</option><option value="national">MFB National</option><option value="team_beats">MFB Team Beats</option><option value="local_desks">MFB Local Desks</option><option value="business">MFB Business</option></select>';q('lists').appendChild(d);d.querySelector('select').value=role(l.name)})}
+async function connect(){q('connect').disabled=true;q('preview').disabled=true;q('apply').disabled=true;try{var pw=q('pw').value.trim();if(!pw)throw new Error('Enter the MFB_Follows app password.');setStatus('Connecting...');var h=await profile();log('Resolved account handle '+h);S.session=await xrpc(PDS,'com.atproto.server.createSession',{method:'POST',body:{identifier:h,password:pw}});if(S.session.did!==OWNER)throw new Error('Authenticated account does not own these lists.');S.lists=[];for(var i=0;i<LISTS.length;i++){var p=parseList(LISTS[i]),rec=await getRecord(p.rkey);S.lists.push({name:rec.value.name,uri:p.uri,rkey:p.rkey})}renderLists();setStatus('Connected as '+S.session.handle+'. Read '+S.lists.length+' lists.','ok');q('preview').disabled=false}catch(e){S.session=null;setStatus(e.message,'bad');log('ERROR: '+e.message)}finally{q('connect').disabled=false}}
+function totals(plan,done){var out={national:[R.national.length,0,0,0],team_beats:[R.team_beats.length,0,0,0],local_desks:[R.local_desks.length,0,0,0],business:[R.business.length,0,0,0]};(plan.existing||[]).forEach(function(x){out[x.role][1]++});(done||plan.add||[]).forEach(function(x){out[x.role][2]++});(plan.fail||[]).forEach(function(x){out[x.role][3]++});return out}
+function render(plan,done){var t=totals(plan,done),labels={national:'National',team_beats:'Team Beats',local_desks:'Local Desks',business:'Business'},html='<table><tr><th>Roster</th><th>Total</th><th>Existing</th><th>'+(done?'Created':'To add')+'</th><th>Failed</th></tr>';['national','team_beats','local_desks','business'].forEach(function(r){html+='<tr><td>'+labels[r]+'</td><td>'+t[r][0]+'</td><td>'+t[r][1]+'</td><td>'+t[r][2]+'</td><td>'+t[r][3]+'</td></tr>'});html+='</table>';if(plan.fail.length){html+='<div class="status bad">'+plan.fail.map(function(x){return esc(x.handle+': '+x.error)}).join('\n')+'</div>'}q('summary').innerHTML=html}
 async function preview(){q('preview').disabled=true;q('apply').disabled=true;try{var maps=mapping();log('Reading existing list items.');var recs=await listItems(),have={};recs.forEach(function(r){if(r.value&&r.value.list&&r.value.subject)have[r.value.list+'|'+r.value.subject]=1});var add=[],existing=[],fail=[];for(var m=0;m<maps.length;m++){var map=maps[m],arr=R[map.role];for(var i=0;i<arr.length;i++){try{var did=await resolve(arr[i][0]),row={listName:map.name,listUri:map.uri,role:map.role,handle:arr[i][0],name:arr[i][1],did:did};if(have[map.uri+'|'+did])existing.push(row);else add.push(row)}catch(e){fail.push({role:map.role,handle:arr[i][0],error:e.message})}}}S.plan={maps:maps,add:add,existing:existing,fail:fail};render(S.plan,null);log('Preview: '+add.length+' to add, '+existing.length+' existing, '+fail.length+' failed.');q('apply').disabled=add.length===0||fail.length>0}catch(e){alert(e.message);log('ERROR: '+e.message)}finally{q('preview').disabled=false}}
 async function createItem(x){return xrpc(PDS,'com.atproto.repo.createRecord',{method:'POST',token:S.session.accessJwt,body:{repo:OWNER,collection:'app.bsky.graph.listitem',record:{$type:'app.bsky.graph.listitem',subject:x.did,list:x.listUri,createdAt:new Date().toISOString()}}})}
-async function applyAll(){if(!S.plan)return;if(S.plan.fail.length)return;if(!confirm('Add '+S.plan.add.length+' accounts across all three MFB lists?'))return;q('apply').disabled=true;q('preview').disabled=true;var done=[],fail=[];for(var i=0;i<S.plan.add.length;i++){var x=S.plan.add[i];try{await createItem(x);done.push(x);log('ADDED '+x.handle+' -> '+x.listName)}catch(e){fail.push({role:x.role,handle:x.handle,error:e.message});log('FAILED '+x.handle+': '+e.message)}}var finalPlan={add:S.plan.add,existing:S.plan.existing,fail:S.plan.fail.concat(fail)};render(finalPlan,done);log('Finished: '+done.length+' created, '+fail.length+' failed.');q('preview').disabled=false}
+async function applyAll(){if(!S.plan)return;if(S.plan.fail.length)return;if(!confirm('Add '+S.plan.add.length+' accounts across all four MFB lists?'))return;q('apply').disabled=true;q('preview').disabled=true;var done=[],fail=[];for(var i=0;i<S.plan.add.length;i++){var x=S.plan.add[i];try{await createItem(x);done.push(x);log('ADDED '+x.handle+' -> '+x.listName)}catch(e){fail.push({role:x.role,handle:x.handle,error:e.message});log('FAILED '+x.handle+': '+e.message)}}var finalPlan={add:S.plan.add,existing:S.plan.existing,fail:S.plan.fail.concat(fail)};render(finalPlan,done);log('Finished: '+done.length+' created, '+fail.length+' failed.');q('preview').disabled=false}
 q('connect').addEventListener('click',connect);q('preview').addEventListener('click',preview);q('apply').addEventListener('click',applyAll);
 </script>
 </main></body></html>
