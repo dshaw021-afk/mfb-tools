@@ -1,0 +1,1474 @@
+[
+  {
+    "index": 0,
+    "name": "NFL",
+    "x_handle": "@NFL",
+    "coverage": "NFL",
+    "source_type": "Official",
+    "destination": "national"
+  },
+  {
+    "index": 1,
+    "name": "NFL Communications",
+    "x_handle": "@NFL345",
+    "coverage": "NFL",
+    "source_type": "Official",
+    "destination": "national"
+  },
+  {
+    "index": 2,
+    "name": "NFL Football Operations",
+    "x_handle": "@NFLFootballOps",
+    "coverage": "NFL",
+    "source_type": "Official",
+    "destination": "national"
+  },
+  {
+    "index": 3,
+    "name": "NFL Network",
+    "x_handle": "@NFLNetwork",
+    "coverage": "NFL",
+    "source_type": "Official",
+    "destination": "national"
+  },
+  {
+    "index": 4,
+    "name": "NFL Players Association",
+    "x_handle": "@NFLPA",
+    "coverage": "NFL",
+    "source_type": "Official",
+    "destination": "national"
+  },
+  {
+    "index": 5,
+    "name": "Adam Schefter",
+    "x_handle": "@AdamSchefter",
+    "coverage": "NFL",
+    "source_type": "Reporter",
+    "destination": "national"
+  },
+  {
+    "index": 6,
+    "name": "Albert Breer",
+    "x_handle": "@AlbertBreer",
+    "coverage": "NFL",
+    "source_type": "Reporter",
+    "destination": "national"
+  },
+  {
+    "index": 7,
+    "name": "Charean Williams",
+    "x_handle": "@NFLCharean",
+    "coverage": "NFL",
+    "source_type": "Reporter",
+    "destination": "national"
+  },
+  {
+    "index": 8,
+    "name": "Dianna Russini",
+    "x_handle": "@DMRussini",
+    "coverage": "NFL",
+    "source_type": "Reporter",
+    "destination": "national"
+  },
+  {
+    "index": 9,
+    "name": "Field Yates",
+    "x_handle": "@FieldYates",
+    "coverage": "NFL",
+    "source_type": "Reporter",
+    "destination": "national"
+  },
+  {
+    "index": 10,
+    "name": "Ian Rapoport",
+    "x_handle": "@RapSheet",
+    "coverage": "NFL",
+    "source_type": "Reporter",
+    "destination": "national"
+  },
+  {
+    "index": 11,
+    "name": "Jay Glazer",
+    "x_handle": "@JayGlazer",
+    "coverage": "NFL",
+    "source_type": "Reporter",
+    "destination": "national"
+  },
+  {
+    "index": 12,
+    "name": "Jeff Legwold",
+    "x_handle": "@Jeff_Legwold",
+    "coverage": "NFL",
+    "source_type": "Reporter",
+    "destination": "national"
+  },
+  {
+    "index": 13,
+    "name": "Jeremy Fowler",
+    "x_handle": "@JFowlerESPN",
+    "coverage": "NFL",
+    "source_type": "Reporter",
+    "destination": "national"
+  },
+  {
+    "index": 14,
+    "name": "Joe Reedy",
+    "x_handle": "@joereedy",
+    "coverage": "NFL",
+    "source_type": "Reporter",
+    "destination": "national"
+  },
+  {
+    "index": 15,
+    "name": "Jonathan Jones",
+    "x_handle": "@jjones9",
+    "coverage": "NFL",
+    "source_type": "Reporter",
+    "destination": "national"
+  },
+  {
+    "index": 16,
+    "name": "Lindsay Jones",
+    "x_handle": "@bylindsayhjones",
+    "coverage": "NFL",
+    "source_type": "Reporter",
+    "destination": "national"
+  },
+  {
+    "index": 17,
+    "name": "Mike Garafolo",
+    "x_handle": "@MikeGarafolo",
+    "coverage": "NFL",
+    "source_type": "Reporter",
+    "destination": "national"
+  },
+  {
+    "index": 18,
+    "name": "Mike Jones",
+    "x_handle": "@ByMikeJones",
+    "coverage": "NFL",
+    "source_type": "Reporter",
+    "destination": "national"
+  },
+  {
+    "index": 19,
+    "name": "Mike Sando",
+    "x_handle": "@SandoNFL",
+    "coverage": "NFL",
+    "source_type": "Reporter",
+    "destination": "national"
+  },
+  {
+    "index": 20,
+    "name": "Nic Bodiford",
+    "x_handle": "@NicBodifordNFL",
+    "coverage": "NFL",
+    "source_type": "Reporter",
+    "destination": "national"
+  },
+  {
+    "index": 21,
+    "name": "Sam Farmer",
+    "x_handle": "@LATimesfarmer",
+    "coverage": "NFL",
+    "source_type": "Reporter",
+    "destination": "national"
+  },
+  {
+    "index": 22,
+    "name": "Tom Pelissero",
+    "x_handle": "@TomPelissero",
+    "coverage": "NFL",
+    "source_type": "Reporter",
+    "destination": "national"
+  },
+  {
+    "index": 23,
+    "name": "Associated Press NFL",
+    "x_handle": "@AP_NFL",
+    "coverage": "NFL",
+    "source_type": "Outlet",
+    "destination": "national"
+  },
+  {
+    "index": 24,
+    "name": "ESPN NFL",
+    "x_handle": "@ESPNNFL",
+    "coverage": "NFL",
+    "source_type": "Outlet",
+    "destination": "national"
+  },
+  {
+    "index": 25,
+    "name": "NFL on CBS",
+    "x_handle": "@NFLonCBS",
+    "coverage": "NFL",
+    "source_type": "Outlet",
+    "destination": "national"
+  },
+  {
+    "index": 26,
+    "name": "NFL on FOX",
+    "x_handle": "@NFLonFOX",
+    "coverage": "NFL",
+    "source_type": "Outlet",
+    "destination": "national"
+  },
+  {
+    "index": 27,
+    "name": "PFF NFL",
+    "x_handle": "@PFF_NFL",
+    "coverage": "NFL",
+    "source_type": "Outlet",
+    "destination": "national"
+  },
+  {
+    "index": 28,
+    "name": "Pro Football Writers of America",
+    "x_handle": "@PFWAwriters",
+    "coverage": "NFL",
+    "source_type": "Outlet",
+    "destination": "national"
+  },
+  {
+    "index": 29,
+    "name": "Reuters Sports",
+    "x_handle": "@ReutersSports",
+    "coverage": "NFL",
+    "source_type": "Outlet",
+    "destination": "national"
+  },
+  {
+    "index": 30,
+    "name": "The Athletic NFL",
+    "x_handle": "@TheAthleticNFL",
+    "coverage": "NFL",
+    "source_type": "Outlet",
+    "destination": "national"
+  },
+  {
+    "index": 31,
+    "name": "Yahoo Sports",
+    "x_handle": "@YahooSports",
+    "coverage": "NFL",
+    "source_type": "Outlet",
+    "destination": "national"
+  },
+  {
+    "index": 32,
+    "name": "Ari Meirov / MySportsUpdate",
+    "x_handle": "@MySportsUpdate",
+    "coverage": "NFL",
+    "source_type": "Aggregator",
+    "destination": "national"
+  },
+  {
+    "index": 33,
+    "name": "Footballguys",
+    "x_handle": "@Footballguys",
+    "coverage": "NFL",
+    "source_type": "Aggregator",
+    "destination": "national"
+  },
+  {
+    "index": 34,
+    "name": "Footballguys News",
+    "x_handle": "@FBGNews",
+    "coverage": "NFL",
+    "source_type": "Aggregator",
+    "destination": "national"
+  },
+  {
+    "index": 35,
+    "name": "PFF Fantasy",
+    "x_handle": "@PFF_Fantasy",
+    "coverage": "NFL",
+    "source_type": "Aggregator",
+    "destination": "national"
+  },
+  {
+    "index": 36,
+    "name": "ProFootballTalk",
+    "x_handle": "@ProFootballTalk",
+    "coverage": "NFL",
+    "source_type": "Aggregator",
+    "destination": "national"
+  },
+  {
+    "index": 37,
+    "name": "RotoWire NFL",
+    "x_handle": "@RotoWireNFL",
+    "coverage": "NFL",
+    "source_type": "Aggregator",
+    "destination": "national"
+  },
+  {
+    "index": 38,
+    "name": "Rotoworld Football",
+    "x_handle": "@rotoworld_fb",
+    "coverage": "NFL",
+    "source_type": "Aggregator",
+    "destination": "national"
+  },
+  {
+    "index": 39,
+    "name": "Alex Sherman",
+    "x_handle": "@sherman4949",
+    "coverage": "NFL BUSINESS",
+    "source_type": "Reporter",
+    "destination": "business"
+  },
+  {
+    "index": 40,
+    "name": "Andrew Beaton",
+    "x_handle": "@andrewlbeaton",
+    "coverage": "NFL BUSINESS",
+    "source_type": "Reporter",
+    "destination": "business"
+  },
+  {
+    "index": 41,
+    "name": "Ben Fischer",
+    "x_handle": "@BenFischerSBJ",
+    "coverage": "NFL BUSINESS",
+    "source_type": "Reporter",
+    "destination": "business"
+  },
+  {
+    "index": 42,
+    "name": "Eben Novy-Williams",
+    "x_handle": "@novy_williams",
+    "coverage": "NFL BUSINESS",
+    "source_type": "Reporter",
+    "destination": "business"
+  },
+  {
+    "index": 43,
+    "name": "John Ourand",
+    "x_handle": "@Ourand_Puck",
+    "coverage": "NFL BUSINESS",
+    "source_type": "Reporter",
+    "destination": "business"
+  },
+  {
+    "index": 44,
+    "name": "Luisa Beltran",
+    "x_handle": "@LuisaRBeltran",
+    "coverage": "NFL BUSINESS",
+    "source_type": "Reporter",
+    "destination": "business"
+  },
+  {
+    "index": 45,
+    "name": "Mark Maske",
+    "x_handle": "@MarkMaske",
+    "coverage": "NFL BUSINESS",
+    "source_type": "Reporter",
+    "destination": "business"
+  },
+  {
+    "index": 46,
+    "name": "Michael McCann",
+    "x_handle": "@McCannSportsLaw",
+    "coverage": "NFL BUSINESS",
+    "source_type": "Reporter",
+    "destination": "business"
+  },
+  {
+    "index": 47,
+    "name": "Michael McCarthy",
+    "x_handle": "@MMcCarthyREV",
+    "coverage": "NFL BUSINESS",
+    "source_type": "Reporter",
+    "destination": "business"
+  },
+  {
+    "index": 48,
+    "name": "Mike Ozanian",
+    "x_handle": "@MikeOzanian",
+    "coverage": "NFL BUSINESS",
+    "source_type": "Reporter",
+    "destination": "business"
+  },
+  {
+    "index": 49,
+    "name": "Scott Soshnick",
+    "x_handle": "@soshnick",
+    "coverage": "NFL BUSINESS",
+    "source_type": "Reporter",
+    "destination": "business"
+  },
+  {
+    "index": 50,
+    "name": "CNBC Sport",
+    "x_handle": "@CNBCSport",
+    "coverage": "NFL BUSINESS",
+    "source_type": "Outlet",
+    "destination": "business"
+  },
+  {
+    "index": 51,
+    "name": "Front Office Sports",
+    "x_handle": "@FOS",
+    "coverage": "NFL BUSINESS",
+    "source_type": "Outlet",
+    "destination": "business"
+  },
+  {
+    "index": 52,
+    "name": "Puck",
+    "x_handle": "@PuckNews",
+    "coverage": "NFL BUSINESS",
+    "source_type": "Outlet",
+    "destination": "business"
+  },
+  {
+    "index": 53,
+    "name": "Sportico",
+    "x_handle": "@Sportico",
+    "coverage": "NFL BUSINESS",
+    "source_type": "Outlet",
+    "destination": "business"
+  },
+  {
+    "index": 54,
+    "name": "Sports Business Journal",
+    "x_handle": "@SBJ",
+    "coverage": "NFL BUSINESS",
+    "source_type": "Outlet",
+    "destination": "business"
+  },
+  {
+    "index": 55,
+    "name": "Wall Street Journal Sports",
+    "x_handle": "@WSJSports",
+    "coverage": "NFL BUSINESS",
+    "source_type": "Outlet",
+    "destination": "business"
+  },
+  {
+    "index": 56,
+    "name": "Arizona Cardinals",
+    "x_handle": "@AZCardinals",
+    "coverage": "ARI",
+    "source_type": "Official",
+    "destination": "team_beats"
+  },
+  {
+    "index": 57,
+    "name": "Josh Weinfuss",
+    "x_handle": "@joshweinfuss",
+    "coverage": "ARI",
+    "source_type": "Reporter",
+    "destination": "team_beats"
+  },
+  {
+    "index": 58,
+    "name": "Theo Mackie",
+    "x_handle": "@theo_mackie",
+    "coverage": "ARI",
+    "source_type": "Reporter",
+    "destination": "team_beats"
+  },
+  {
+    "index": 59,
+    "name": "Tyler Drake",
+    "x_handle": "@Tdrake4sports",
+    "coverage": "ARI",
+    "source_type": "Reporter",
+    "destination": "team_beats"
+  },
+  {
+    "index": 60,
+    "name": "Arizona Republic Sports / AZCentral Sports",
+    "x_handle": "@azcsports",
+    "coverage": "ARI",
+    "source_type": "Outlet",
+    "destination": "local_desks"
+  },
+  {
+    "index": 61,
+    "name": "Atlanta Falcons",
+    "x_handle": "@AtlantaFalcons",
+    "coverage": "ATL",
+    "source_type": "Official",
+    "destination": "team_beats"
+  },
+  {
+    "index": 62,
+    "name": "Josh Kendall",
+    "x_handle": "@JoshTheAthletic",
+    "coverage": "ATL",
+    "source_type": "Reporter",
+    "destination": "team_beats"
+  },
+  {
+    "index": 63,
+    "name": "Marc Raimondi",
+    "x_handle": "@marcraimondi",
+    "coverage": "ATL",
+    "source_type": "Reporter",
+    "destination": "team_beats"
+  },
+  {
+    "index": 64,
+    "name": "AJC Sports",
+    "x_handle": "@AJCsports",
+    "coverage": "ATL",
+    "source_type": "Outlet",
+    "destination": "local_desks"
+  },
+  {
+    "index": 65,
+    "name": "Baltimore Ravens",
+    "x_handle": "@Ravens",
+    "coverage": "BAL",
+    "source_type": "Official",
+    "destination": "team_beats"
+  },
+  {
+    "index": 66,
+    "name": "Brian Wacker",
+    "x_handle": "@brianwacker1",
+    "coverage": "BAL",
+    "source_type": "Reporter",
+    "destination": "team_beats"
+  },
+  {
+    "index": 67,
+    "name": "Jamison Hensley",
+    "x_handle": "@jamisonhensley",
+    "coverage": "BAL",
+    "source_type": "Reporter",
+    "destination": "team_beats"
+  },
+  {
+    "index": 68,
+    "name": "Baltimore Sun Sports",
+    "x_handle": "@BaltSunSports",
+    "coverage": "BAL",
+    "source_type": "Outlet",
+    "destination": "local_desks"
+  },
+  {
+    "index": 69,
+    "name": "Buffalo Bills",
+    "x_handle": "@BuffaloBills",
+    "coverage": "BUF",
+    "source_type": "Official",
+    "destination": "team_beats"
+  },
+  {
+    "index": 70,
+    "name": "Alaina Getzenberg",
+    "x_handle": "@agetzenberg",
+    "coverage": "BUF",
+    "source_type": "Reporter",
+    "destination": "team_beats"
+  },
+  {
+    "index": 71,
+    "name": "Chris Brown",
+    "x_handle": "@ChrisBrownBills",
+    "coverage": "BUF",
+    "source_type": "Reporter",
+    "destination": "team_beats"
+  },
+  {
+    "index": 72,
+    "name": "Joe Buscaglia",
+    "x_handle": "@JoeBuscaglia",
+    "coverage": "BUF",
+    "source_type": "Reporter",
+    "destination": "team_beats"
+  },
+  {
+    "index": 73,
+    "name": "Katherine Fitzgerald",
+    "x_handle": "@kfitz134",
+    "coverage": "BUF",
+    "source_type": "Reporter",
+    "destination": "team_beats"
+  },
+  {
+    "index": 74,
+    "name": "Carolina Panthers",
+    "x_handle": "@Panthers",
+    "coverage": "CAR",
+    "source_type": "Official",
+    "destination": "team_beats"
+  },
+  {
+    "index": 75,
+    "name": "David Newton",
+    "x_handle": "@DNewtonespn",
+    "coverage": "CAR",
+    "source_type": "Reporter",
+    "destination": "team_beats"
+  },
+  {
+    "index": 76,
+    "name": "Mike Kaye",
+    "x_handle": "@mike_e_kaye",
+    "coverage": "CAR",
+    "source_type": "Reporter",
+    "destination": "team_beats"
+  },
+  {
+    "index": 77,
+    "name": "Chicago Bears",
+    "x_handle": "@ChicagoBears",
+    "coverage": "CHI",
+    "source_type": "Official",
+    "destination": "team_beats"
+  },
+  {
+    "index": 78,
+    "name": "Adam Hoge",
+    "x_handle": "@AdamHoge",
+    "coverage": "CHI",
+    "source_type": "Reporter",
+    "destination": "team_beats"
+  },
+  {
+    "index": 79,
+    "name": "Patrick Finley",
+    "x_handle": "@patrickfinley",
+    "coverage": "CHI",
+    "source_type": "Reporter",
+    "destination": "team_beats"
+  },
+  {
+    "index": 80,
+    "name": "Sean Hammond",
+    "x_handle": "@sean_hammond",
+    "coverage": "CHI",
+    "source_type": "Reporter",
+    "destination": "team_beats"
+  },
+  {
+    "index": 81,
+    "name": "Chicago Sun-Times Sports",
+    "x_handle": "@suntimes_sports",
+    "coverage": "CHI",
+    "source_type": "Outlet",
+    "destination": "local_desks"
+  },
+  {
+    "index": 82,
+    "name": "Cincinnati Bengals",
+    "x_handle": "@Bengals",
+    "coverage": "CIN",
+    "source_type": "Official",
+    "destination": "team_beats"
+  },
+  {
+    "index": 83,
+    "name": "Ben Baby",
+    "x_handle": "@Ben_Baby",
+    "coverage": "CIN",
+    "source_type": "Reporter",
+    "destination": "team_beats"
+  },
+  {
+    "index": 84,
+    "name": "Paul Dehner Jr.",
+    "x_handle": "@pauldehnerjr",
+    "coverage": "CIN",
+    "source_type": "Reporter",
+    "destination": "team_beats"
+  },
+  {
+    "index": 85,
+    "name": "Enquirer Sports",
+    "x_handle": "@ENQSports",
+    "coverage": "CIN",
+    "source_type": "Outlet",
+    "destination": "local_desks"
+  },
+  {
+    "index": 86,
+    "name": "Cleveland Browns",
+    "x_handle": "@Browns",
+    "coverage": "CLE",
+    "source_type": "Official",
+    "destination": "team_beats"
+  },
+  {
+    "index": 87,
+    "name": "Mary Kay Cabot",
+    "x_handle": "@MaryKayCabot",
+    "coverage": "CLE",
+    "source_type": "Reporter",
+    "destination": "team_beats"
+  },
+  {
+    "index": 88,
+    "name": "Scott Petrak",
+    "x_handle": "@ScottPetrak",
+    "coverage": "CLE",
+    "source_type": "Reporter",
+    "destination": "team_beats"
+  },
+  {
+    "index": 89,
+    "name": "Dallas Cowboys",
+    "x_handle": "@dallascowboys",
+    "coverage": "DAL",
+    "source_type": "Official",
+    "destination": "team_beats"
+  },
+  {
+    "index": 90,
+    "name": "Calvin Watkins",
+    "x_handle": "@calvinwatkins",
+    "coverage": "DAL",
+    "source_type": "Reporter",
+    "destination": "team_beats"
+  },
+  {
+    "index": 91,
+    "name": "Todd Archer",
+    "x_handle": "@toddarcher",
+    "coverage": "DAL",
+    "source_type": "Reporter",
+    "destination": "team_beats"
+  },
+  {
+    "index": 92,
+    "name": "Dallas Morning News Cowboys",
+    "x_handle": "@dmn_cowboys",
+    "coverage": "DAL",
+    "source_type": "Outlet",
+    "destination": "local_desks"
+  },
+  {
+    "index": 93,
+    "name": "Denver Broncos",
+    "x_handle": "@Broncos",
+    "coverage": "DEN",
+    "source_type": "Official",
+    "destination": "team_beats"
+  },
+  {
+    "index": 94,
+    "name": "Cody Roark",
+    "x_handle": "@CodyRoarkNFL",
+    "coverage": "DEN",
+    "source_type": "Reporter",
+    "destination": "team_beats"
+  },
+  {
+    "index": 95,
+    "name": "Parker Gabriel",
+    "x_handle": "@ParkerJGabriel",
+    "coverage": "DEN",
+    "source_type": "Reporter",
+    "destination": "team_beats"
+  },
+  {
+    "index": 96,
+    "name": "Denver Post Broncos",
+    "x_handle": "@PostBroncos",
+    "coverage": "DEN",
+    "source_type": "Outlet",
+    "destination": "local_desks"
+  },
+  {
+    "index": 97,
+    "name": "Detroit Lions",
+    "x_handle": "@Lions",
+    "coverage": "DET",
+    "source_type": "Official",
+    "destination": "team_beats"
+  },
+  {
+    "index": 98,
+    "name": "Colton Pouncy",
+    "x_handle": "@colton_pouncy",
+    "coverage": "DET",
+    "source_type": "Reporter",
+    "destination": "team_beats"
+  },
+  {
+    "index": 99,
+    "name": "Dave Birkett",
+    "x_handle": "@davebirkett",
+    "coverage": "DET",
+    "source_type": "Reporter",
+    "destination": "team_beats"
+  },
+  {
+    "index": 100,
+    "name": "Detroit Free Press Sports",
+    "x_handle": "@freepsports",
+    "coverage": "DET",
+    "source_type": "Outlet",
+    "destination": "local_desks"
+  },
+  {
+    "index": 101,
+    "name": "Green Bay Packers",
+    "x_handle": "@packers",
+    "coverage": "GB",
+    "source_type": "Official",
+    "destination": "team_beats"
+  },
+  {
+    "index": 102,
+    "name": "Rob Demovsky",
+    "x_handle": "@RobDemovsky",
+    "coverage": "GB",
+    "source_type": "Reporter",
+    "destination": "team_beats"
+  },
+  {
+    "index": 103,
+    "name": "Tom Silverstein",
+    "x_handle": "@TomSilverstein",
+    "coverage": "GB",
+    "source_type": "Reporter",
+    "destination": "team_beats"
+  },
+  {
+    "index": 104,
+    "name": "Houston Texans",
+    "x_handle": "@HoustonTexans",
+    "coverage": "HOU",
+    "source_type": "Official",
+    "destination": "team_beats"
+  },
+  {
+    "index": 105,
+    "name": "DJ Bien-Aime",
+    "x_handle": "@Djbienaime",
+    "coverage": "HOU",
+    "source_type": "Reporter",
+    "destination": "team_beats"
+  },
+  {
+    "index": 106,
+    "name": "Jonathan M. Alexander",
+    "x_handle": "@jonmalexander",
+    "coverage": "HOU",
+    "source_type": "Reporter",
+    "destination": "team_beats"
+  },
+  {
+    "index": 107,
+    "name": "Houston Chronicle Sports",
+    "x_handle": "@ChronSports",
+    "coverage": "HOU",
+    "source_type": "Outlet",
+    "destination": "local_desks"
+  },
+  {
+    "index": 108,
+    "name": "Indianapolis Colts",
+    "x_handle": "@Colts",
+    "coverage": "IND",
+    "source_type": "Official",
+    "destination": "team_beats"
+  },
+  {
+    "index": 109,
+    "name": "Nate Atkins",
+    "x_handle": "@NateAtkins_",
+    "coverage": "IND",
+    "source_type": "Reporter",
+    "destination": "team_beats"
+  },
+  {
+    "index": 110,
+    "name": "Stephen Holder",
+    "x_handle": "@HolderStephen",
+    "coverage": "IND",
+    "source_type": "Reporter",
+    "destination": "team_beats"
+  },
+  {
+    "index": 111,
+    "name": "IndyStar Sports",
+    "x_handle": "@IndyStarSports",
+    "coverage": "IND",
+    "source_type": "Outlet",
+    "destination": "local_desks"
+  },
+  {
+    "index": 112,
+    "name": "Jacksonville Jaguars",
+    "x_handle": "@Jaguars",
+    "coverage": "JAX",
+    "source_type": "Official",
+    "destination": "team_beats"
+  },
+  {
+    "index": 113,
+    "name": "Demetrius Harvey",
+    "x_handle": "@Demetrius82",
+    "coverage": "JAX",
+    "source_type": "Reporter",
+    "destination": "team_beats"
+  },
+  {
+    "index": 114,
+    "name": "Mike DiRocco",
+    "x_handle": "@ESPNdirocco",
+    "coverage": "JAX",
+    "source_type": "Reporter",
+    "destination": "team_beats"
+  },
+  {
+    "index": 115,
+    "name": "Kansas City Chiefs",
+    "x_handle": "@Chiefs",
+    "coverage": "KC",
+    "source_type": "Official",
+    "destination": "team_beats"
+  },
+  {
+    "index": 116,
+    "name": "Matt Derrick",
+    "x_handle": "@mattderrick",
+    "coverage": "KC",
+    "source_type": "Reporter",
+    "destination": "team_beats"
+  },
+  {
+    "index": 117,
+    "name": "Nate Taylor",
+    "x_handle": "@ByNateTaylor",
+    "coverage": "KC",
+    "source_type": "Reporter",
+    "destination": "team_beats"
+  },
+  {
+    "index": 118,
+    "name": "Los Angeles Chargers",
+    "x_handle": "@chargers",
+    "coverage": "LAC",
+    "source_type": "Official",
+    "destination": "team_beats"
+  },
+  {
+    "index": 119,
+    "name": "Daniel Popper",
+    "x_handle": "@danielrpopper",
+    "coverage": "LAC",
+    "source_type": "Reporter",
+    "destination": "team_beats"
+  },
+  {
+    "index": 120,
+    "name": "Kris Rhim",
+    "x_handle": "@krisrhim1",
+    "coverage": "LAC",
+    "source_type": "Reporter",
+    "destination": "team_beats"
+  },
+  {
+    "index": 121,
+    "name": "L.A. Times Sports",
+    "x_handle": "@latimessports",
+    "coverage": "LAC",
+    "source_type": "Outlet",
+    "destination": "local_desks"
+  },
+  {
+    "index": 122,
+    "name": "Los Angeles Rams",
+    "x_handle": "@RamsNFL",
+    "coverage": "LAR",
+    "source_type": "Official",
+    "destination": "team_beats"
+  },
+  {
+    "index": 123,
+    "name": "Gary Klein",
+    "x_handle": "@LATimesklein",
+    "coverage": "LAR",
+    "source_type": "Reporter",
+    "destination": "team_beats"
+  },
+  {
+    "index": 124,
+    "name": "Jourdan Rodrigue",
+    "x_handle": "@JourdanRodrigue",
+    "coverage": "LAR",
+    "source_type": "Reporter",
+    "destination": "team_beats"
+  },
+  {
+    "index": 125,
+    "name": "Sarah Barshop",
+    "x_handle": "@sarahbarshop",
+    "coverage": "LAR",
+    "source_type": "Reporter",
+    "destination": "team_beats"
+  },
+  {
+    "index": 127,
+    "name": "Las Vegas Raiders",
+    "x_handle": "@Raiders",
+    "coverage": "LV",
+    "source_type": "Official",
+    "destination": "team_beats"
+  },
+  {
+    "index": 128,
+    "name": "Adam Hill",
+    "x_handle": "@AdamHillLVRJ",
+    "coverage": "LV",
+    "source_type": "Reporter",
+    "destination": "team_beats"
+  },
+  {
+    "index": 129,
+    "name": "Case Keefer",
+    "x_handle": "@casekeefer",
+    "coverage": "LV",
+    "source_type": "Reporter",
+    "destination": "team_beats"
+  },
+  {
+    "index": 130,
+    "name": "Vegas Nation / Las Vegas Review-Journal Raiders",
+    "x_handle": "@VegasNation",
+    "coverage": "LV",
+    "source_type": "Outlet",
+    "destination": "local_desks"
+  },
+  {
+    "index": 131,
+    "name": "Miami Dolphins",
+    "x_handle": "@MiamiDolphins",
+    "coverage": "MIA",
+    "source_type": "Official",
+    "destination": "team_beats"
+  },
+  {
+    "index": 132,
+    "name": "Hal Habib",
+    "x_handle": "@gunnerhal",
+    "coverage": "MIA",
+    "source_type": "Reporter",
+    "destination": "team_beats"
+  },
+  {
+    "index": 133,
+    "name": "Marcel Louis-Jacques",
+    "x_handle": "@Marcel_LJ",
+    "coverage": "MIA",
+    "source_type": "Reporter",
+    "destination": "team_beats"
+  },
+  {
+    "index": 134,
+    "name": "Miami Herald Sports",
+    "x_handle": "@HeraldSports",
+    "coverage": "MIA",
+    "source_type": "Outlet",
+    "destination": "local_desks"
+  },
+  {
+    "index": 135,
+    "name": "Minnesota Vikings",
+    "x_handle": "@Vikings",
+    "coverage": "MIN",
+    "source_type": "Official",
+    "destination": "team_beats"
+  },
+  {
+    "index": 136,
+    "name": "Alec Lewis",
+    "x_handle": "@Alec_Lewis",
+    "coverage": "MIN",
+    "source_type": "Reporter",
+    "destination": "team_beats"
+  },
+  {
+    "index": 137,
+    "name": "Ben Goessling",
+    "x_handle": "@BenGoessling",
+    "coverage": "MIN",
+    "source_type": "Reporter",
+    "destination": "team_beats"
+  },
+  {
+    "index": 138,
+    "name": "Star Tribune Sports",
+    "x_handle": "@StribSports",
+    "coverage": "MIN",
+    "source_type": "Outlet",
+    "destination": "local_desks"
+  },
+  {
+    "index": 139,
+    "name": "New England Patriots",
+    "x_handle": "@Patriots",
+    "coverage": "NE",
+    "source_type": "Official",
+    "destination": "team_beats"
+  },
+  {
+    "index": 140,
+    "name": "Andrew Callahan",
+    "x_handle": "@_AndrewCallahan",
+    "coverage": "NE",
+    "source_type": "Reporter",
+    "destination": "team_beats"
+  },
+  {
+    "index": 141,
+    "name": "Karen Guregian",
+    "x_handle": "@kguregian",
+    "coverage": "NE",
+    "source_type": "Reporter",
+    "destination": "team_beats"
+  },
+  {
+    "index": 142,
+    "name": "Mike Reiss",
+    "x_handle": "@MikeReiss",
+    "coverage": "NE",
+    "source_type": "Reporter",
+    "destination": "team_beats"
+  },
+  {
+    "index": 143,
+    "name": "Boston Globe Sports",
+    "x_handle": "@BGlobeSports",
+    "coverage": "NE",
+    "source_type": "Outlet",
+    "destination": "local_desks"
+  },
+  {
+    "index": 144,
+    "name": "New Orleans Saints",
+    "x_handle": "@Saints",
+    "coverage": "NO",
+    "source_type": "Official",
+    "destination": "team_beats"
+  },
+  {
+    "index": 145,
+    "name": "Katherine Terrell",
+    "x_handle": "@Kat_Terrell",
+    "coverage": "NO",
+    "source_type": "Reporter",
+    "destination": "team_beats"
+  },
+  {
+    "index": 146,
+    "name": "Ross Jackson",
+    "x_handle": "@RossJacksonNOLA",
+    "coverage": "NO",
+    "source_type": "Reporter",
+    "destination": "team_beats"
+  },
+  {
+    "index": 147,
+    "name": "New York Giants",
+    "x_handle": "@Giants",
+    "coverage": "NYG",
+    "source_type": "Official",
+    "destination": "team_beats"
+  },
+  {
+    "index": 148,
+    "name": "Jordan Raanan",
+    "x_handle": "@JordanRaanan",
+    "coverage": "NYG",
+    "source_type": "Reporter",
+    "destination": "team_beats"
+  },
+  {
+    "index": 149,
+    "name": "Ryan Dunleavy",
+    "x_handle": "@rydunleavy",
+    "coverage": "NYG",
+    "source_type": "Reporter",
+    "destination": "team_beats"
+  },
+  {
+    "index": 150,
+    "name": "Tom Rock",
+    "x_handle": "@TomRock_Newsday",
+    "coverage": "NYG",
+    "source_type": "Reporter",
+    "destination": "team_beats"
+  },
+  {
+    "index": 151,
+    "name": "New York Post Sports",
+    "x_handle": "@nypostsports",
+    "coverage": "NYG",
+    "source_type": "Outlet",
+    "destination": "local_desks"
+  },
+  {
+    "index": 152,
+    "name": "New York Jets",
+    "x_handle": "@nyjets",
+    "coverage": "NYJ",
+    "source_type": "Official",
+    "destination": "team_beats"
+  },
+  {
+    "index": 153,
+    "name": "Al Iannazzone",
+    "x_handle": "@Al_Iannazzone",
+    "coverage": "NYJ",
+    "source_type": "Reporter",
+    "destination": "team_beats"
+  },
+  {
+    "index": 154,
+    "name": "Brian Costello",
+    "x_handle": "@BrianCoz",
+    "coverage": "NYJ",
+    "source_type": "Reporter",
+    "destination": "team_beats"
+  },
+  {
+    "index": 155,
+    "name": "Rich Cimini",
+    "x_handle": "@RichCimini",
+    "coverage": "NYJ",
+    "source_type": "Reporter",
+    "destination": "team_beats"
+  },
+  {
+    "index": 157,
+    "name": "Philadelphia Eagles",
+    "x_handle": "@Eagles",
+    "coverage": "PHI",
+    "source_type": "Official",
+    "destination": "team_beats"
+  },
+  {
+    "index": 158,
+    "name": "Jeff McLane",
+    "x_handle": "@Jeff_McLane",
+    "coverage": "PHI",
+    "source_type": "Reporter",
+    "destination": "team_beats"
+  },
+  {
+    "index": 159,
+    "name": "Olivia Reiner",
+    "x_handle": "@ReinerOlivia",
+    "coverage": "PHI",
+    "source_type": "Reporter",
+    "destination": "team_beats"
+  },
+  {
+    "index": 160,
+    "name": "Zach Berman",
+    "x_handle": "@ZBerm",
+    "coverage": "PHI",
+    "source_type": "Reporter",
+    "destination": "team_beats"
+  },
+  {
+    "index": 161,
+    "name": "Pittsburgh Steelers",
+    "x_handle": "@steelers",
+    "coverage": "PIT",
+    "source_type": "Official",
+    "destination": "team_beats"
+  },
+  {
+    "index": 162,
+    "name": "Brooke Pryor",
+    "x_handle": "@bepryor",
+    "coverage": "PIT",
+    "source_type": "Reporter",
+    "destination": "team_beats"
+  },
+  {
+    "index": 163,
+    "name": "Gerry Dulac",
+    "x_handle": "@gerrydulac",
+    "coverage": "PIT",
+    "source_type": "Reporter",
+    "destination": "team_beats"
+  },
+  {
+    "index": 164,
+    "name": "Post-Gazette Sports",
+    "x_handle": "@PGSportsNow",
+    "coverage": "PIT",
+    "source_type": "Outlet",
+    "destination": "local_desks"
+  },
+  {
+    "index": 165,
+    "name": "Seattle Seahawks",
+    "x_handle": "@Seahawks",
+    "coverage": "SEA",
+    "source_type": "Official",
+    "destination": "team_beats"
+  },
+  {
+    "index": 166,
+    "name": "Bob Condotta",
+    "x_handle": "@bcondotta",
+    "coverage": "SEA",
+    "source_type": "Reporter",
+    "destination": "team_beats"
+  },
+  {
+    "index": 167,
+    "name": "Brady Henderson",
+    "x_handle": "@BradyHenderson",
+    "coverage": "SEA",
+    "source_type": "Reporter",
+    "destination": "team_beats"
+  },
+  {
+    "index": 168,
+    "name": "Seattle Times Sports",
+    "x_handle": "@SeaTimesSports",
+    "coverage": "SEA",
+    "source_type": "Outlet",
+    "destination": "local_desks"
+  },
+  {
+    "index": 169,
+    "name": "San Francisco 49ers",
+    "x_handle": "@49ers",
+    "coverage": "SF",
+    "source_type": "Official",
+    "destination": "team_beats"
+  },
+  {
+    "index": 170,
+    "name": "Matt Barrows",
+    "x_handle": "@MattBarrows",
+    "coverage": "SF",
+    "source_type": "Reporter",
+    "destination": "team_beats"
+  },
+  {
+    "index": 171,
+    "name": "Matt Maiocco",
+    "x_handle": "@MaioccoNBCS",
+    "coverage": "SF",
+    "source_type": "Reporter",
+    "destination": "team_beats"
+  },
+  {
+    "index": 172,
+    "name": "Nick Wagoner",
+    "x_handle": "@nwagoner",
+    "coverage": "SF",
+    "source_type": "Reporter",
+    "destination": "team_beats"
+  },
+  {
+    "index": 173,
+    "name": "Sporting Green / San Francisco Chronicle Sports",
+    "x_handle": "@SportingGreenSF",
+    "coverage": "SF",
+    "source_type": "Outlet",
+    "destination": "local_desks"
+  },
+  {
+    "index": 174,
+    "name": "Tampa Bay Buccaneers",
+    "x_handle": "@Buccaneers",
+    "coverage": "TB",
+    "source_type": "Official",
+    "destination": "team_beats"
+  },
+  {
+    "index": 175,
+    "name": "Greg Auman",
+    "x_handle": "@gregauman",
+    "coverage": "TB",
+    "source_type": "Reporter",
+    "destination": "team_beats"
+  },
+  {
+    "index": 176,
+    "name": "Rick Stroud",
+    "x_handle": "@NFLSTROUD",
+    "coverage": "TB",
+    "source_type": "Reporter",
+    "destination": "team_beats"
+  },
+  {
+    "index": 177,
+    "name": "Tampa Bay Times Sports",
+    "x_handle": "@TBTimes_Sports",
+    "coverage": "TB",
+    "source_type": "Outlet",
+    "destination": "local_desks"
+  },
+  {
+    "index": 178,
+    "name": "Tennessee Titans",
+    "x_handle": "@Titans",
+    "coverage": "TEN",
+    "source_type": "Official",
+    "destination": "team_beats"
+  },
+  {
+    "index": 179,
+    "name": "Jim Wyatt",
+    "x_handle": "@jwyattsports",
+    "coverage": "TEN",
+    "source_type": "Reporter",
+    "destination": "team_beats"
+  },
+  {
+    "index": 180,
+    "name": "Paul Kuharsky",
+    "x_handle": "@PaulKuharskyNFL",
+    "coverage": "TEN",
+    "source_type": "Reporter",
+    "destination": "team_beats"
+  },
+  {
+    "index": 181,
+    "name": "Turron Davenport",
+    "x_handle": "@TDavenport_NFL",
+    "coverage": "TEN",
+    "source_type": "Reporter",
+    "destination": "team_beats"
+  },
+  {
+    "index": 182,
+    "name": "Washington Commanders",
+    "x_handle": "@Commanders",
+    "coverage": "WAS",
+    "source_type": "Official",
+    "destination": "team_beats"
+  },
+  {
+    "index": 183,
+    "name": "John Keim",
+    "x_handle": "@john_keim",
+    "coverage": "WAS",
+    "source_type": "Reporter",
+    "destination": "team_beats"
+  },
+  {
+    "index": 184,
+    "name": "JP Finlay",
+    "x_handle": "@JPFinlayNBCS",
+    "coverage": "WAS",
+    "source_type": "Reporter",
+    "destination": "team_beats"
+  },
+  {
+    "index": 185,
+    "name": "Nicki Jhabvala",
+    "x_handle": "@NickiJhabvala",
+    "coverage": "WAS",
+    "source_type": "Reporter",
+    "destination": "team_beats"
+  }
+]
