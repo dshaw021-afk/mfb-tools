@@ -106,8 +106,8 @@ none=[r for r in results if r["decision"]=="none"]
 print("MFB_AUDIT_SUMMARY",json.dumps({"sources":len(results),"high":len(high),"review":len(review),"none":len(none)}))
 for r in high:
     c=r["candidates"][0]
-    print("HIGH",r["source"]["destination"],r["source"]["name"],"=>",c["handle"],c["score"],"|",c.get("description","")[:160].replace("\n"," "))
+    print("HIGH",r["source"]["destination"],r["source"]["name"],"=>",c["handle"],c["score"],"|",(c.get("description") or "")[:160].replace("\n"," "))
 print("REVIEW_COUNT",len(review))
 for r in review[:80]:
     c=r["candidates"][0]
-    print("REVIEW",r["source"]["name"],"=>",c["handle"],c["score"],"|",c.get("description","")[:120].replace("\n"," "))
+    print("REVIEW",r["source"]["name"],"=>",c["handle"],c["score"],"|",(c.get("description") or "")[:120].replace("\n"," "))
