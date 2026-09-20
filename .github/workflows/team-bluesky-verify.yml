@@ -1,0 +1,24 @@
+name: MFB Team Bluesky Verify
+on:
+  push:
+    paths:
+      - team_candidates.json
+      - scripts/verify_team_bluesky.py
+      - .github/workflows/team-bluesky-verify.yml
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python scripts/verify_team_bluesky.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: mfb-team-bluesky-verify
+          path: team_verify_results.json

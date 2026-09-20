@@ -1,0 +1,269 @@
+[
+  {
+    "code": "ARI",
+    "name": "Arizona Cardinals",
+    "domain": "azcardinals.com",
+    "candidates": [
+      "azcardinals.bsky.social"
+    ]
+  },
+  {
+    "code": "ATL",
+    "name": "Atlanta Falcons",
+    "domain": "atlantafalcons.com",
+    "candidates": [
+      "atlantafalcons.bsky.social"
+    ]
+  },
+  {
+    "code": "BAL",
+    "name": "Baltimore Ravens",
+    "domain": "baltimoreravens.com",
+    "candidates": [
+      "baltimoreravens.bsky.social",
+      "ravens.bsky.social"
+    ]
+  },
+  {
+    "code": "BUF",
+    "name": "Buffalo Bills",
+    "domain": "buffalobills.com",
+    "candidates": [
+      "buffalobillsnfl.bsky.social"
+    ]
+  },
+  {
+    "code": "CAR",
+    "name": "Carolina Panthers",
+    "domain": "panthers.com",
+    "candidates": [
+      "carolinapanthers.bsky.social"
+    ]
+  },
+  {
+    "code": "CHI",
+    "name": "Chicago Bears",
+    "domain": "chicagobears.com",
+    "candidates": [
+      "thechicagobears.bsky.social"
+    ]
+  },
+  {
+    "code": "CIN",
+    "name": "Cincinnati Bengals",
+    "domain": "bengals.com",
+    "candidates": [
+      "cincinnatibengals.bsky.social"
+    ]
+  },
+  {
+    "code": "CLE",
+    "name": "Cleveland Browns",
+    "domain": "clevelandbrowns.com",
+    "candidates": [
+      "clevelandbrowns.bsky.social"
+    ]
+  },
+  {
+    "code": "DAL",
+    "name": "Dallas Cowboys",
+    "domain": "dallascowboys.com",
+    "candidates": [
+      "dallascowboys.bsky.social"
+    ]
+  },
+  {
+    "code": "DEN",
+    "name": "Denver Broncos",
+    "domain": "denverbroncos.com",
+    "candidates": [
+      "denverbroncos.bsky.social"
+    ]
+  },
+  {
+    "code": "DET",
+    "name": "Detroit Lions",
+    "domain": "detroitlions.com",
+    "candidates": [
+      "detroitlions.bsky.social"
+    ]
+  },
+  {
+    "code": "GB",
+    "name": "Green Bay Packers",
+    "domain": "packers.com",
+    "candidates": [
+      "greenbaypackers.bsky.social",
+      "gbpackers.bsky.social"
+    ]
+  },
+  {
+    "code": "HOU",
+    "name": "Houston Texans",
+    "domain": "houstontexans.com",
+    "candidates": [
+      "texanspr.bsky.social"
+    ]
+  },
+  {
+    "code": "IND",
+    "name": "Indianapolis Colts",
+    "domain": "colts.com",
+    "candidates": [
+      "indianapoliscolts9.bsky.social"
+    ]
+  },
+  {
+    "code": "JAX",
+    "name": "Jacksonville Jaguars",
+    "domain": "jaguars.com",
+    "candidates": [
+      "jaguarsnfl.bsky.social"
+    ]
+  },
+  {
+    "code": "KC",
+    "name": "Kansas City Chiefs",
+    "domain": "chiefs.com",
+    "candidates": [
+      "kansascitychiefs.bsky.social",
+      "kansas-city-chiefs.bsky.social"
+    ]
+  },
+  {
+    "code": "LAC",
+    "name": "Los Angeles Chargers",
+    "domain": "chargers.com",
+    "candidates": [
+      "chargers.bsky.social"
+    ]
+  },
+  {
+    "code": "LAR",
+    "name": "Los Angeles Rams",
+    "domain": "therams.com",
+    "candidates": [
+      "ramsnfl.bsky.social"
+    ]
+  },
+  {
+    "code": "LV",
+    "name": "Las Vegas Raiders",
+    "domain": "raiders.com",
+    "candidates": [
+      "lasvegasraiders.bsky.social"
+    ]
+  },
+  {
+    "code": "MIA",
+    "name": "Miami Dolphins",
+    "domain": "miamidolphins.com",
+    "candidates": [
+      "miamidolphins.bsky.social"
+    ]
+  },
+  {
+    "code": "MIN",
+    "name": "Minnesota Vikings",
+    "domain": "vikings.com",
+    "candidates": [
+      "minnesotavikings.bsky.social",
+      "vikings.bsky.social"
+    ]
+  },
+  {
+    "code": "NE",
+    "name": "New England Patriots",
+    "domain": "patriots.com",
+    "candidates": [
+      "patriotsnfl.bsky.social",
+      "patriots.bsky.social"
+    ]
+  },
+  {
+    "code": "NO",
+    "name": "New Orleans Saints",
+    "domain": "neworleanssaints.com",
+    "candidates": [
+      "saints.bsky.social"
+    ]
+  },
+  {
+    "code": "NYG",
+    "name": "New York Giants",
+    "domain": "giants.com",
+    "candidates": [
+      "nygiants.bsky.social",
+      "newyorkgiants.bsky.social"
+    ]
+  },
+  {
+    "code": "NYJ",
+    "name": "New York Jets",
+    "domain": "newyorkjets.com",
+    "candidates": [
+      "newyorkjetsnfl.bsky.social",
+      "nyjetsfootball.bsky.social"
+    ]
+  },
+  {
+    "code": "PHI",
+    "name": "Philadelphia Eagles",
+    "domain": "philadelphiaeagles.com",
+    "candidates": [
+      "philadelphiaeagles.bsky.social"
+    ]
+  },
+  {
+    "code": "PIT",
+    "name": "Pittsburgh Steelers",
+    "domain": "steelers.com",
+    "candidates": [
+      "steelers.bsky.social",
+      "pittsburghsteelers.bsky.social"
+    ]
+  },
+  {
+    "code": "SEA",
+    "name": "Seattle Seahawks",
+    "domain": "seahawks.com",
+    "candidates": [
+      "seahawksofficial.com",
+      "seahawks.bsky.social"
+    ]
+  },
+  {
+    "code": "SF",
+    "name": "San Francisco 49ers",
+    "domain": "49ers.com",
+    "candidates": [
+      "sanfrancisco49ers.bsky.social"
+    ]
+  },
+  {
+    "code": "TB",
+    "name": "Tampa Bay Buccaneers",
+    "domain": "buccaneers.com",
+    "candidates": [
+      "tampabaybuccaneers.bsky.social"
+    ]
+  },
+  {
+    "code": "TEN",
+    "name": "Tennessee Titans",
+    "domain": "tennesseetitans.com",
+    "candidates": [
+      "tennessee-titans.bsky.social",
+      "tennesseetitans.bsky.social"
+    ]
+  },
+  {
+    "code": "WAS",
+    "name": "Washington Commanders",
+    "domain": "commanders.com",
+    "candidates": [
+      "wshcommanders.bsky.social",
+      "washcommanders.bsky.social"
+    ]
+  }
+]
